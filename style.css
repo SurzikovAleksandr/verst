@@ -1,0 +1,86 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: OpenSans;
+}
+aside>p{
+    font-size:smaller;
+}
+
+body{
+    background-color: whitesmoke;
+}
+html,body{
+    height: 100%;
+}
+header{
+    margin: 25px 4px;
+}
+.active{
+    
+    border: 1px solid darkgrey;
+    grid-template-columns: 1fr 3fr 1fr;
+    display: grid;
+    height:72vh;
+}
+.nactive{
+    display: none;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.content{
+    flex: 1 0 auto;
+    
+} 
+p{
+    margin-top: 15px ;
+}
+.nav{
+    background-color: rgb(226, 226, 228);
+    padding: 9px 0px;
+    border: 1px solid lightgray;
+}
+.nav a {
+    border-left: 1px solid lightgray;
+    padding: 10px 20px;
+    
+}
+.bnactive{
+    background-color:'';
+}
+.bactive{
+    background-color: rgb(211, 211, 211);
+}
+a:hover{
+    color: rgb(134, 127, 114);
+    cursor: pointer;
+    user-select: none;
+}
+
+aside{
+    padding: 15px;
+    background-color: rgb(223, 222, 222);
+    border-inline: 1px solid rgb(173, 173, 173);
+}
+.main2 {
+    padding: 10px;
+    background-color: rgb(231, 231, 231)
+}
+footer {
+    background-color: rgb(196, 197, 199);
+    flex: 0 0 auto;
+    text-align: center;
+    height: 80px;
+}
+h5,h6{
+    font-weight: 500;
+}
