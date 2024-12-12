@@ -62,7 +62,7 @@ p{
     user-select: none;
     
 }
-.bnactive, aside a{
+.bnactive:hover, aside a:hover{
     color: rgb(134, 127, 114);
     cursor: pointer;
     user-select: none;
