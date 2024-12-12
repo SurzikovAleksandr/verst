@@ -56,14 +56,13 @@ p{
 }
 .bnactive{
     background-color:'';
-    cursor: pointer;
 }
 .bactive{
     background-color: rgb(211, 211, 211);
     user-select: none;
     
 }
-bnactive:hover{
+.bnactive:hover{
     color: rgb(134, 127, 114);
     cursor: pointer;
     user-select: none;
